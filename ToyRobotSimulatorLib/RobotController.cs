@@ -17,8 +17,6 @@ namespace ToyRobotSimulatorLib
 
         public void ReadCommand(List<string> commandList)
         {
-            Console.WriteLine("Enter commands to control the robot:");
-
             foreach(string command in commandList)
             {
                 string command1 = command.ToUpper().Trim();
